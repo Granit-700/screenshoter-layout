@@ -4,14 +4,20 @@
 
 ## Stack 
 
+- Vite
 - React
 - TypeScript
-- Vite
+- Tailwind
 
-## Start
+## Install
 
 ```bash
 git clone https://github.com/Granit-700/screenshoter-layout.git
 cd screenshoter-layout
 npm i
+```
+
+## Run
+
+```bash
 npm run dev
