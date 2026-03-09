@@ -1,12 +1,14 @@
 import Header from "./components/Header";
+import Hero from "./components/Hero";
 
 function App() {
   return (
-    <main className="px-3.75 pt-5 pb-7.5">
-      <div className="container mx-auto">
-        <Header />
-      </div>
-    </main>
+    <div className="container mx-auto px-3.75 pt-5 pb-7.5">
+      <Header />
+      <main>
+        <Hero />
+      </main>
+    </div>
   );
 };
 
